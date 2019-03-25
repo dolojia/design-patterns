@@ -1,4 +1,4 @@
-package com.dolo.pattern.pattern;
+package com.dolo.pattern.delegate;
 
 public class EmployeeA implements IEmployee {
     @Override

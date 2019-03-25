@@ -57,8 +57,8 @@ public class DOProxy {
 
     private static String generateSrc(Class<?>[] interfaces) {
         StringBuffer sb = new StringBuffer();
-        sb.append("package com.gupaoedu.vip.pattern.proxy.dynamicproxy.doproxy;" + ln);
-        sb.append("import com.gupaoedu.vip.pattern.proxy.Person;" + ln);
+        sb.append("package com.gupaoedu.vip.delegate.proxy.dynamicproxy.doproxy;" + ln);
+        sb.append("import com.gupaoedu.vip.delegate.proxy.Person;" + ln);
         sb.append("import java.lang.reflect.*;" + ln);
         sb.append("public class $Proxy0 implements " + interfaces[0].getName() + "{" + ln);
         sb.append("DOInvocationHandler h;" + ln);

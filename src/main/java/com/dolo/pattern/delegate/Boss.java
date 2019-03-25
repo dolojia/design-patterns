@@ -1,4 +1,4 @@
-package com.dolo.pattern.pattern;
+package com.dolo.pattern.delegate;
 
 /**
  * 老板(Boss)给项目经理(Leader)下达任务

@@ -1,4 +1,4 @@
-package com.dolo.pattern.pattern;
+package com.dolo.pattern.delegate;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -11,7 +11,7 @@ public class ContainerSingletonTest {
             long start = System.currentTimeMillis();
             ConcurrentExecutor.execute(new ConcurrentExecutor.RunHandler() {
                 public void handler() {
-                    Object obj = ContainerSingleton.getInstance("com.gupaoedu.vip.pattern.singleton.test.Pojo");
+                    Object obj = ContainerSingleton.getInstance("com.gupaoedu.vip.delegate.singleton.test.Pojo");
                     ;
                     System.out.println(System.currentTimeMillis() + ": " + obj);
                 }

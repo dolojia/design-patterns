@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="design-patterns:war exploded">
+    <output-path>$PROJECT_DIR$/target/design-patterns</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="design-patterns" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.1_3" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/design-patterns/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="design-patterns/web/Web" />
+    </root>
+  </artifact>
+</component>

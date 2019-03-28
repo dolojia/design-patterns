@@ -121,3 +121,29 @@ ThreadLocal 将所有的对象全部放在 ThreadLocalMap 中，为每个线程�
   * 观察者模式(Observer Pattern)定义了对象之间的一对多 依赖，让多个观察者对象同时监听一个主体对象，当主体对象 发生变化时，它的所有依赖者(观察者)都会收到通知并更新。
    * 1、观察者和被观察者之间建立了一个抽象的耦合。 
    * 2、观察者模式支持广播通信。
+
+#### **Spring中常用的设计模式**
+
+| **设计模式**                                              | **一句话归纳**                                | **举例**                                                     |
+| --------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------ |
+| 工厂模式(Factory) 单例模式(Singleton) 原型模式(Prototype) | 只对结果负责，封装创建过程                    | BeanFactory、Calendar                                        |
+| 代理模式(Proxy)                                           | 保证独一无二。                                | ApplicationContext、Calendar                                 |
+| 委派模式(Delegate)                                        | 拔一根猴毛，吹出千万个。                      | ArrayList、PrototypeBean                                     |
+| 策略模式(Strategy) 模板模式(Template) 适配器模式(Adapter) | 找人办事，增强职责。                          | ProxyFactoryBean、JdkDynamicAopProxy、CglibAopProxy          |
+| 装饰器模式(Decorator)                                     | 干活算你的(普通员工)，功劳 算我的(项目经理)。 | DispatcherServlet、BeanDefinitionParserDelegate              |
+| 观察者模式(Observer)                                      | 用户选择，结果统一。                          | InstantiationStrategy                                        |
+| 模板模式(Template)                                        | 流程标准化，自己实现定制。                    | JdbcTemplate、HttpServlet                                    |
+| 适配器模式(Adapter)                                       | 兼容转换头。                                  | AdvisorAdapter、HandlerAdapter                               |
+| 装饰器模式(Decorator)                                     | 包装，同宗同源。                              | BufferedReader、InputStream、OutputStream、HttpHeadResponseDecorator |
+| 观察者模式(Observer)                                      | 任务完成时通知。                              | ContextLoaderListener                                        |
+
+#### **Spring中的编程思想总结**
+
+| **Spring思想** | **应用场景(特点)**                                           | **一句话归纳**           |
+| -------------- | ------------------------------------------------------------ | ------------------------ |
+| OOP            | Object Oriented Programming(面向对象编程)用程序归纳总结生活中一切事物。 | 封装、继承、多态。       |
+| BOP            | Bean Oriented Programming(面向Bean编程)面向Bean(普通的java类)设计程序。 | 一切从Bean开始。         |
+| AOP            | Aspect Oriented Programming(面向切面编程)找出多个类中  AOP 有一定规律的代码，开发时拆开，运行时再合并。面向切面编程，解耦，专人做专事。 即面向规则编程。 | 解耦，专人做专事。       |
+| IOC            | nversion of Control(控制反转)将new对象的动作交给Spring管理，并由Spring保存已创建的对象(IOC容器)。 | 转交控制权(即控制权反转) |
+| DI/DL          | Dependency Injection(依赖注入)或者Dependency  Lookup(依赖查找)依赖注入、依赖查找，Spring不仅保存自 赋值 |                          |
+

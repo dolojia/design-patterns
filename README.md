@@ -145,5 +145,5 @@ ThreadLocal 将所有的对象全部放在 ThreadLocalMap 中，为每个线程�
 | BOP            | Bean Oriented Programming(面向Bean编程)面向Bean(普通的java类)设计程序。 | 一切从Bean开始。         |
 | AOP            | Aspect Oriented Programming(面向切面编程)找出多个类中  AOP 有一定规律的代码，开发时拆开，运行时再合并。面向切面编程，解耦，专人做专事。 即面向规则编程。 | 解耦，专人做专事。       |
 | IOC            | nversion of Control(控制反转)将new对象的动作交给Spring管理，并由Spring保存已创建的对象(IOC容器)。 | 转交控制权(即控制权反转) |
-| DI/DL          | Dependency Injection(依赖注入)或者Dependency  Lookup(依赖查找)依赖注入、依赖查找，Spring不仅保存自 赋值 |                          |
+| DI/DL          | Dependency Injection(依赖注入)或者Dependency  Lookup(依赖查找)依赖注入、依赖查找，Spring不仅保存对象与对象之间的关联关系，注入即赋值，主要三种赋值方式，构造方法、set赋值、直接赋值（反射） |                          |
 

@@ -8,6 +8,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.1_3" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:20.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
